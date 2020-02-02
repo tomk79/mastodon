@@ -160,8 +160,6 @@ GEM
       elasticsearch (>= 2.0.0)
       elasticsearch-dsl
     chunky_png (1.3.11)
-    cld3 (3.2.6)
-      ffi (>= 1.1.0, < 1.12.0)
     climate_control (0.2.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
@@ -683,7 +681,6 @@ DEPENDENCIES
   capybara (~> 3.30)
   charlock_holmes (~> 0.7.7)
   chewy (~> 5.1)
-  cld3 (~> 3.2.6)
   climate_control (~> 0.2)
   concurrent-ruby
   connection_pool
@@ -789,3 +786,9 @@ DEPENDENCIES
   webmock (~> 3.8)
   webpacker (~> 4.2)
   webpush
+
+RUBY VERSION
+   ruby 2.6.5p114
+
+BUNDLED WITH
+   2.1.4
